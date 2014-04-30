@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"els",
+				"else"
+			],
+			[
+				"key",
+				"key"
+			],
+			[
 				"add",
 				"add_product"
 			],
@@ -100,27 +108,16 @@
 			"file": "/home/cakemix/Code/Ruby/Kata/round3/main.rb",
 			"settings":
 			{
-				"buffer_size": 317,
-				"line_ending": "Unix",
-				"name": "#round 3"
+				"buffer_size": 471,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/cakemix/Code/Ruby/Kata/round2/deal.rb",
+			"file": "/home/cakemix/Code/Ruby/Kata/round3/casheir.rb",
 			"settings":
 			{
-				"buffer_size": 163,
-				"line_ending": "Unix",
-				"name": "# round 3"
-			}
-		},
-		{
-			"file": "/home/cakemix/Code/Ruby/Kata/round2/casheir.rb",
-			"settings":
-			{
-				"buffer_size": 395,
-				"line_ending": "Unix",
-				"name": "# round 3"
+				"buffer_size": 904,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -142,6 +139,7 @@
 		"height": 126.0,
 		"history":
 		[
+			"ruby"
 		]
 	},
 	"distraction_free":
@@ -155,6 +153,10 @@
 	},
 	"file_history":
 	[
+		"/home/cakemix/Code/Ruby/Kata/round3/deal.rb",
+		"/home/cakemix/Code/Ruby/Kata/round3/main.rb",
+		"/home/cakemix/Code/Ruby/Kata/round2/deal.rb",
+		"/home/cakemix/Code/Ruby/Kata/round2/casheir.rb",
 		"/home/cakemix/NetBeansProjects/ChatProgram/src/org/cakemix/Network.java",
 		"/home/cakemix/NetBeansProjects/ChatProgram/src/org/cakemix/server/ChatServer.java",
 		"/home/cakemix/NetBeansProjects/ChatProgram/src/org/cakemix/client/ChatClient.java",
@@ -257,8 +259,8 @@
 						"selection":
 						[
 							[
-								265,
-								265
+								614,
+								614
 							]
 						],
 						"settings":
@@ -267,7 +269,7 @@
 							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 43.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -278,48 +280,19 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 317,
+						"buffer_size": 471,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								76,
-								76
+								101,
+								101
 							]
 						],
 						"settings":
 						{
-							"auto_name": "#round 3",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/cakemix/Code/Ruby/Kata/round2/deal.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 163,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								158,
-								158
-							]
-						],
-						"settings":
-						{
-							"auto_name": "# round 3",
 							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -335,26 +308,26 @@
 			"sheets":
 			[
 				{
-					"buffer": 4,
-					"file": "/home/cakemix/Code/Ruby/Kata/round2/casheir.rb",
+					"buffer": 3,
+					"file": "/home/cakemix/Code/Ruby/Kata/round3/casheir.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 395,
+						"buffer_size": 904,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								385,
-								385
+								325,
+								325
 							]
 						],
 						"settings":
 						{
-							"auto_name": "# round 3",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -393,7 +366,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.461946902655,
 			1.0
 		],
 		"rows":
@@ -405,7 +378,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 234.0
+		"height": 236.0
 	},
 	"project": "kata1.sublime-project",
 	"replace":
