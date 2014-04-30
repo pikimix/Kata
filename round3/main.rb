@@ -2,7 +2,6 @@
 # splitting out to separate files now, see how this goes
 
 require_relative "./casheir.rb"
-require_relative "./deal.rb"
 
 c = Casheir.new
 
