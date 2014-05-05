@@ -1,5 +1,7 @@
 commit_message = "trying rakefile"
 
-sh "ruby *.rb"
-sh 'git add .'
-sh "git commit -m \"#{commit_message}\""
+task :default do
+	sh "ruby *.rb"
+	sh 'git add .'
+	sh "git commit -m \"#{commit_message}\""
+end
