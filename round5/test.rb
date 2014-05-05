@@ -14,7 +14,8 @@ class Test1 < Test::Unit::TestCase
 	end
 
 	def test_single_item_of_B15_in_basket
-		checkout = Checkout.new
+		products = {'A99' => 50, 'B15' => 30}
+		checkout = Checkout.new(products)
 		checkout.scan "B15"
 		assert_equal checkout.total,30
 	end
@@ -23,9 +24,9 @@ end
 
 class Checkout
 
-	def initialize
+	def initialize(products = {'A99' => 50, 'B15' => 30})
 		@total = 0
-		@products = {'A99' => 50, 'B15' => 30}
+		@products = products 
 	end 
 
 	def scan( sku )
