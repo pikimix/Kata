@@ -26,11 +26,12 @@ class Checkout
 	def initialize
 		@total = 0
 		@sku_of_A99 = "A99"
+		@value_of_A99 = 50
 	end 
 
 	def scan( sku )
 		if (sku == @sku_of_A99)
-			@total = 50
+			@total = @value_of_A99
 		else
 			@total = 30
 		end
