@@ -12,7 +12,9 @@ end
 
 class Checkout
 
+	def scan
 
+	end
 
 	def total
 		50
