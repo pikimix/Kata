@@ -25,7 +25,6 @@ class Checkout
 
 	def initialize
 		@total = 0
-		@value_of_B15 = 30
 		@products = {'A99' => 50, 'B15' => 30}
 	end 
 
@@ -33,7 +32,7 @@ class Checkout
 		if (sku == 'A99')
 			@total = @products['A99']
 		else
-			@total = @value_of_B15
+			@total = @products['B15']
 		end
 	end
 
