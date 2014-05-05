@@ -28,6 +28,7 @@ class Checkout
 		@sku_of_A99 = "A99"
 		@value_of_A99 = 50
 		@value_of_B15 = 30
+		@products = []
 	end 
 
 	def scan( sku )
