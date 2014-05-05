@@ -32,7 +32,7 @@ class Checkout
 		if (sku == 'A99')
 			@total = @products[sku]
 		else
-			@total = @products['B15']
+			@total = @products[sku]
 		end
 	end
 
