@@ -6,7 +6,11 @@ task :test do
 	sh "ruby *.rb"
 end
 
-task :git_commit do
+task :git_commit => :check_for_message do
 	sh 'git add .'
 	sh "git commit -m \"#{commit_message}\""
+end
+
+task :check_for_message do
+	raise "!!!!!!!!!!!!!!!!!! No commit Message !!!!!!!!!!!!!!!!!!!" unless commit_message != nil
 end
