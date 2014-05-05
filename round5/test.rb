@@ -26,7 +26,7 @@ class Checkout
 	def initialize
 		@total = 0
 		@value_of_B15 = 30
-		@products = {'A99' => 50}
+		@products = {'A99' => 50, 'B15' => 30}
 	end 
 
 	def scan( sku )
