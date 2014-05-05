@@ -20,6 +20,10 @@ class Test1 < Test::Unit::TestCase
 		assert_equal checkout.total,100
 	end
 
+	def test_single_item_of_B15_in_basket
+			assert_equal checkout.total,30
+	end
+
 end
 
 class Checkout
