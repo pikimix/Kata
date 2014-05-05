@@ -3,6 +3,5 @@ commit_message = ENV['m']
 task :default do
 	sh "ruby *.rb"
 	sh 'git add .'
-	puts "****************** #{commit_message} ********************"
 	sh "git commit -m \"#{commit_message}\""
 end
