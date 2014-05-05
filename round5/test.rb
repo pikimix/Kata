@@ -21,7 +21,9 @@ class Test1 < Test::Unit::TestCase
 	end
 
 	def test_single_item_of_B15_in_basket
-			assert_equal checkout.total,30
+		checkout = Checkout.new
+		checkout.scan "B15"
+		assert_equal checkout.total,30
 	end
 
 end
@@ -33,7 +35,11 @@ class Checkout
 	end 
 
 	def scan( sku )
-		@total += 50
+		if (sku == "A99")
+			@total += 50
+		else
+			@total += 30
+		end
 	end
 
 	def total
