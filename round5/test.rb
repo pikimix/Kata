@@ -25,8 +25,6 @@ class Checkout
 
 	def initialize
 		@total = 0
-		@sku_of_A99 = "A99"
-		@value_of_A99 = 50
 		@value_of_B15 = 30
 		@products = {'A99' => 50}
 	end 
