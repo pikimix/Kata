@@ -1,0 +1,3 @@
+sh "ruby *.rb"
+sh 'git add .'
+sh 'git commit -m "trying rakefile"'
