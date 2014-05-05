@@ -15,11 +15,11 @@ class Checkout
 
 
 	def scan sku
-		
+		@total = 50		
 	end
 
 	def total
-		50
+		@total
 	end
 
 end
