@@ -30,7 +30,7 @@ class Checkout
 
 	def scan( sku )
 		if (sku == 'A99')
-			@total = @products['A99']
+			@total = @products[sku]
 		else
 			@total = @products['B15']
 		end
