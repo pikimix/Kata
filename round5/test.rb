@@ -12,14 +12,12 @@ end
 
 class Checkout
 
-
 	def scan sku
-		@total = 50
+		@A99_cost = 50
+		@total = @A99_cost
 	end
 
 	def total
 		@total
 	end
-
-
 end
