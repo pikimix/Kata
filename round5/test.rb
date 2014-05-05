@@ -16,7 +16,7 @@ class Checkout
 	end
 
 	def scan sku
-		@total = @products['A99']
+		@total = @products[sku]
 	end
 
 	def total
