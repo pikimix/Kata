@@ -14,8 +14,8 @@ class Checkout
 
 
 
-	def scan
-
+	def scan sku
+		
 	end
 
 	def total
