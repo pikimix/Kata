@@ -7,13 +7,13 @@ class Test1 < Test::Unit::TestCase
 		assert_equal checkout.total,0
 	end
 
-	def test_single_item_in_basket
+	def test_single_item_of_A99_in_basket
 		checkout = Checkout.new
 		checkout.scan "A99"
 		assert_equal checkout.total,50
 	end
 
-	def test_multiple_items_in_basket
+	def test_multiple_items_of_A99_in_basket
 		checkout = Checkout.new
 		checkout.scan "A99"
 		checkout.scan "A99"
