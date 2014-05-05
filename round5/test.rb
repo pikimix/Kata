@@ -2,26 +2,9 @@ require 'test/unit'
 
 class Test1 < Test::Unit::TestCase
 
-	def test_scan_single_product
-		checkout = Checkout.new
-		checkout.scan "A99"
-		assert_equal checkout.total,50
-	end
-
-end
-
-class Checkout 
-
-	def initialize
-		@products = {"A99" => 50}
-	end
-
-	def scan sku
-		@total = 50
-	end
-
-	def total
-		@total
+	def test_total_of_1_A99_is_50
+		total = 50
+		assert_equal total, 50
 	end
 
 end
